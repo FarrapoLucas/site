@@ -1,37 +1,53 @@
-body{
+body {
     background-color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     color: rgb(255, 0, 0);
     margin: 30px;
 }
-.topo{
-    background-color: rgb(0, 0, 0);
+.topo {
+    background-color: rgb(250, 0, 0);
     padding: 30px;
 }
-.topo a{
-    color: rgb(255, 0, 0);
+.topo a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
-article{
+.navegacao {
+    display: flex;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.menu li {
+    margin-right: 20px;
+}
+.menu a:hover {
+    color: rgb(255, 255, 0);
+}
+.materia {
     background-color: rgb(255, 0, 0);
     color: black;
     padding: 30px;
     margin-bottom: 30px;
-    
 }
-article a{
+.botao {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 0, 0);
     text-decoration: none;
     padding: 5px;
 }
-.rodape{
-    background-color:black;
-    color: rgb(255, 0, 0);
+.materia a:hover {
+    color: rgb(255, 255, 0);
+}
+.rodape {
+    background-color:rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 30px;
 }
-.menu{
+.corpo {
     padding: 30px;
+    margin: none;
 }
