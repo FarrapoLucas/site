@@ -127,4 +127,11 @@ textarea.campo{
 .campo:focus{
     background-color: rgb(255, 255, 255);
     outline: none;
+}.localidade{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 0, 0);
+    padding: 10px;
 }
