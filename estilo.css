@@ -27,6 +27,7 @@ body {
     list-style: none;
     margin-left: auto;
     justify-content: flex-start;
+    margin: -2px;
 }
 .menu li {
     margin-left: 15px;
@@ -155,29 +156,29 @@ textarea.campo{
     background-color: rgb(250, 0, 0);
     padding: 10px;
 }
-@media (min widths: 768px) (
+@media (min-width: 768px) {
 
-    .topo a (
+    .topo a {
         font-size: 18px;
-    )
+    }
 
-    .titulo (
+    .titulo {
         font-size: 30px;
-    )
+    }
 
-    .corpo (
+    .corpo {
         padding: 30px;
-    )
+    }
 
-    .materia (
+    .materia {
         display: block;
         max-width: none;
         margin-left: auto;
         margin-right: auto;
         max-width: 768px;
-    )
+    }
 
-    .materia h1 (
+    .materia h1 {
         font-size: 30px;
-    )
-)
+    }
+}
